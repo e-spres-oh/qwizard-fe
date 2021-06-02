@@ -1,0 +1,13 @@
+.textArea {
+  border: 0.1rem solid var(--light-brown);
+  padding: 1rem;
+  box-sizing: border-box;
+  margin-bottom: 3rem;
+}
+
+.label {
+  font-size: 1.8rem;
+  color: var(--black);
+  margin-bottom: 0.8rem;
+  display: block;
+}

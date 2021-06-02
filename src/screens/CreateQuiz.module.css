@@ -1,0 +1,59 @@
+.createQuiz {
+  padding-top: 7rem;
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4.4rem;
+}
+
+.button:first-child {
+  margin-right: 3.2rem;
+}
+
+.gridItem {
+  margin-bottom: 3rem;
+}
+
+.dnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quizName {
+  position: relative;
+  background: var(--faded-yellow);
+  line-height: 2;
+  text-align: center;
+  cursor: pointer;
+}
+
+.quizName:after {
+  content: "";
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2rem;
+  background-image: url("../static/svg/gear.svg");
+}
+
+.sidebarButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 3rem;
+  box-sizing: border-box;
+}
+
+.sidebarButton {
+  width: 100%;
+}
+
+.sidebarButton:first-child {
+  margin-bottom: 1.6rem;
+}

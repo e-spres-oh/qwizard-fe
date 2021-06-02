@@ -1,0 +1,47 @@
+.quizSettings {
+  padding-top: 7rem;
+}
+
+.dnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quizName {
+  position: relative;
+  line-height: 2;
+  text-align: center;
+  background-color: var(--deep-blue);
+  cursor: pointer;
+  color: var(--white);
+}
+
+.quizName:after {
+  content: "";
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2rem;
+  background-image: url("../static/svg/gear-white.svg");
+}
+
+.buttonContainer {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 3rem;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 100%;
+}
+
+.button:first-child {
+  margin-bottom: 1.6rem;
+}

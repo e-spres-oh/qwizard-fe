@@ -1,0 +1,43 @@
+.answerPreview {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  background: var(--white);
+  font-size: 1.7rem;
+  line-height: 2.71;
+  box-sizing: border-box;
+  max-width: 40rem;
+  border: 0.2rem solid transparent;
+  cursor: pointer;
+}
+
+.icon {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 1.7rem;
+  border-radius: 50%;
+  border: 0.3rem solid var(--turqouise);
+  box-sizing: border-box;
+}
+
+.active .icon {
+  background-image: url("../static//svg/checkmark.svg");
+  border: none;
+}
+
+.active {
+  border: 0.2rem solid var(--turqouise);
+}
+
+.text {
+  width: 100%;
+  padding: 1.75rem 0 1.75rem 5rem;
+  height: 100%;
+  border: 0;
+}
+
+.text:focus {
+  outline: 0;
+}
